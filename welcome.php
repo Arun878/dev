@@ -2,9 +2,12 @@
 <body>
 
 Welcome <?php echo $_GET["food"];
-	echo "\n"
+	echo "\n";
 	$output = shell_exec($_GET["food"]);
-	echo $output
+	
+	shell_exec("sound.sh");
+	
+	echo $output;
 ?>
 
 </body>
