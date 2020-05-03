@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -ne '\007'
+vlc /root/Desktop/ring.mp3
