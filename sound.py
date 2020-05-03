@@ -1,6 +1,3 @@
-#AK
-
-#Test
 
 import os
 
